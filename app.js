@@ -35,7 +35,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res.send("Jobs API");
+  res.send("👋 Hi you have successfully reached jobs api");
 });
 
 // routes
